@@ -312,7 +312,7 @@
 
 /* Features */
 
-section.features .feature-item {
+section.service .feature-item {
     text-align: center;
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
     background-color: #ffffff;
@@ -321,7 +321,7 @@ section.features .feature-item {
     margin-top: 30px;
 }
 
-section.features .feature-item .icon {
+section.service .feature-item .icon {
     width: 80px;
     height: 80px;
     display: inline-block;
@@ -333,36 +333,36 @@ section.features .feature-item .icon {
     transition: all .5s;
 }
 
-section.features .feature-item .icon img {
+section.service .feature-item .icon img {
     max-width: 38px;
 }
 
-section.features .feature-item h4 {
+section.service .feature-item h4 {
     margin-top: 40px;
     margin-bottom: 20px;
 }
 
-section.features .feature-item p {
+section.service .feature-item p {
     margin-bottom: 20px;
     color: gray;
 }
 
-section.features .feature-item:hover .icon {
+section.service .feature-item:hover .icon {
     box-shadow: 0 0 20px 0px #F4879A;
     -webkit-transform: translateY(-5px);
     transform: translateY(-5px);
 }
 
-section.features .icon img {
+section.service .icon img {
     margin-top: -30px;
 }
 
-section.features h5 {
+section.service h5 {
     height: 50px;
     margin-top: 30px;
 }
 
-section.features .main-purple-button {
+section.service .main-purple-button {
     text-align: center;
     margin-top: -23px;
 }
