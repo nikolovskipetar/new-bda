@@ -14,7 +14,7 @@ $(window).scroll(function() {
 let btn = $('#mobile-menu')
 let bars = $('#mob-menu')
 
-$('body').on('click', btn, function() {
+btn.click(function() {
 
     setTimeout(function() {
         if (btn.hasClass('collapsed')) {
