@@ -28,3 +28,8 @@ $('body').on('click', btn, function() {
         }
     }, 100)
 })
+
+$(window).on('load', function() {
+    // executes when HTML-Document is loaded and DOM is ready
+    $('.preloader').fadeOut()
+});
