@@ -57,6 +57,10 @@
     transition: all transform 300ms ease-out 200ms;
 }
 
+a:not([href]):not([tabindex]) {
+    color: #fff !important;
+}
+
 .main-purple-button a {
     text-decoration: unset;
 }
@@ -73,11 +77,15 @@
     transition: transform 300ms ease-out, -webkit-transform 300ms ease-out;
 }
 
+.main-purple-button {
+    cursor: pointer;
+}
+
 
 /* Preloader */
 
 .preloader {
-    position: absolute;
+    position: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -117,7 +125,7 @@
 
 .navbar.scrolled {
     transition: 0.5s;
-    background: #7b6fe5eb !important;
+    background: rgba(131, 118, 168, 0.94) !important
 }
 
 .navbar.scrolled #logo-header {
@@ -310,7 +318,43 @@
 /* End Main Banner */
 
 
+/* About us */
+
+section.about-us {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+section.about-us .thumbnail img {
+    box-shadow: 0 25px 65px rgba(0, 0, 0, .1);
+    border-radius: 8px;
+    width: 100%;
+}
+
+section.about-us .description .header {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+section.about-us .flex-col {
+    display: block;
+}
+
+section.about-us .description {
+    margin-bottom: 60px;
+}
+
+
+/* End about us */
+
+
 /* Features */
+
+section.service {
+    margin-bottom: 100px;
+    background: rgb(247, 247, 247);
+}
 
 section.service .feature-item {
     text-align: center;
@@ -390,9 +434,3 @@ section.service .main-purple-button {
 
 
 /* End Features */
-
-
-/* About us */
-
-
-/* End about us */
