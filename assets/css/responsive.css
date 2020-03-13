@@ -40,6 +40,13 @@
     }
 }
 
+@media(max-width:575px) {
+    section.about-us .container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
 @media(max-width:480px) {
     .custom-font {
         font-size: 2rem;
