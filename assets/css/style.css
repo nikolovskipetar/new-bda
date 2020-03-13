@@ -354,6 +354,8 @@ section.about-us .description {
 section.service {
     margin-bottom: 100px;
     background: rgb(247, 247, 247);
+    padding-top: 15px;
+    padding-bottom: 35px;
 }
 
 section.service .feature-item {
