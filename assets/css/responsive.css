@@ -23,6 +23,16 @@
     .navbar-light .navbar-nav .active>.nav-link {
         color: #F4879A !important;
     }
+    section.about-us {
+        margin-top: unset;
+    }
+}
+
+@media (max-width: 768px) {
+    .waves {
+        height: 40px;
+        min-height: 40px;
+    }
 }
 
 @media(max-width:600px) {
