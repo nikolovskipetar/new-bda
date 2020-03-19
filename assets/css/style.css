@@ -331,14 +331,27 @@ section.about-us .thumbnail img {
     width: 100%;
 }
 
+section.about-us .thumbnail .front-img {
+    position: relative;
+    z-index: 1;
+}
+
+section.about-us .thumbnail .back-img {
+    position: absolute;
+    transition: 0.3s ease-in-out;
+    z-index: 0;
+    left: -60px;
+    top: -60px;
+}
+
 section.about-us .description .header {
     font-size: 40px;
     font-weight: bold;
-    margin-top: 50px;
 }
 
 section.about-us .flex-col {
-    display: block;
+    display: flex;
+    align-items: center;
 }
 
 section.about-us .description {
@@ -349,7 +362,7 @@ section.about-us .description {
 /* End about us */
 
 
-/* Features */
+/* Service */
 
 section.service {
     margin-bottom: 100px;
@@ -388,6 +401,7 @@ section.service .feature-item h4 {
 section.service .feature-item p {
     margin-bottom: 20px;
     color: gray;
+    height: 70px;
 }
 
 section.service .feature-item:hover .icon {
@@ -431,5 +445,13 @@ section.service .main-purple-button {
     margin-right: auto;
 }
 
+section.about-us .about-us {
+    margin-left: 40px;
+}
 
-/* End Features */
+.modal-header {
+    border-bottom: unset;
+}
+
+
+/* End Service */
