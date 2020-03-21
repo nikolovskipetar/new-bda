@@ -33,3 +33,22 @@ $(window).on('load', function() {
     // executes when HTML-Document is loaded and DOM is ready
     $('.preloader').fadeOut()
 });
+
+
+let scrollBtn = $('#button');
+
+
+//button back to top
+$(window).scroll(function() {
+    if ($(window).scrollTop() > 300) {
+        scrollBtn.addClass('show');
+    } else {
+        scrollBtn.removeClass('show');
+    }
+});
+
+//scroll to top
+scrollBtn.on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({ scrollTop: 0 }, '300');
+});
