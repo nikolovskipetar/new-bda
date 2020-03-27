@@ -20,11 +20,9 @@ btn.click(function() {
         if (btn.hasClass('collapsed')) {
             bars.removeClass('fa-times')
             bars.addClass('fa-bars')
-            console.log(true)
         } else {
             bars.removeClass('fa-bars')
             bars.addClass('fa-times')
-            console.log(true)
         }
     }, 100)
 })
@@ -52,3 +50,19 @@ scrollBtn.on('click', function(e) {
     e.preventDefault();
     $('html, body').animate({ scrollTop: 0 }, '300');
 });
+
+$('.nav span').click(function() {
+    let $this = $(this)
+    let id = $this.attr('class')
+    let same = $('.item-text').is('.' + id)
+
+    if (!$this.hasClass('active')) {
+        $('.nav span').removeClass('active')
+        $this.addClass('active')
+    }
+
+    if (same) {
+        $('.item-text').hide()
+        $('.' + id).fadeIn()
+    }
+})
