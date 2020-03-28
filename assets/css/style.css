@@ -1034,3 +1034,14 @@ section.all-services .item-text {
 section.all-services .item-text.active {
     display: flex;
 }
+
+
+/* 4. ABOUT US */
+
+.about-img {
+    box-shadow: unset !important
+}
+
+.custom-section {
+    margin-bottom: 50px !important;
+}

@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/lightgallery.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
     <link href="https://i.ibb.co/KhpSMpM/favicon.png" rel="shortcut icon">
 </head>
@@ -35,10 +36,10 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav">
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="index.html">Дома</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item active">
                         <a class="nav-link" href="about-us.html">За нас </a>
                     </li>
                     <li class="nav-item">
@@ -57,62 +58,37 @@
     <!-- End navigation -->
 
     <!-- Main Banner -->
-    <div id="main-banner">
+    <div id="main-banner" class="banner">
         <div id="background-rgba">
             <div class="container flex-container">
-                <div class="row mobile-margin">
-                    <div class="col-md-12">
-                        <h1 class="banner-header">Современа Акредитирана Лабораторија</h1>
-                        <p class="banner-paragraph">по најновите и највисоки светски стандарди</p>
-                        <p class="custom-font">Брзо - Прецизно - Доверливо</p>
-                        <div class="main-purple-button btn">
-                            <a>Дознај повеќе за нас</a>
-                        </div>
+                <div class="row w-100 mobile-margin">
+                    <div class="col-md-12 custom-column-margin text-center">
+                        <p class="banner-paragraph">Дознајте повеќе за нас</p>
+                        <p class="banner-links"><a href="/">Дома</a> / За нас</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- End nain banner -->
+    <!-- End main banner -->
 
-    <!-- Waves -->
-    <div id="waves">
-        <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
-            <defs>
-                <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
-            </defs>
-            <g class="parallax">
-                <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
-                <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
-                <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
-                <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
-            </g>
-        </svg>
-    </div>
-    <!-- End waves -->
-
-    <!-- About us -->
-    <section class="about-us">
+    <section class="about-us custom-section">
         <div class="container">
             <div class="row">
-                <div class="col-lg-5 col-md-12">
+                <div class="col-lg-6 col-md-12">
                     <div class="thumbnail">
-                        <img class="front-img" src="https://i.ibb.co/b7D2z5W/IMG-0376-min-1.jpg" alt="">
+                        <img class="front-img about-img" src="https://nikolovskipetar.github.io/bda/assets/img/about-us.png" alt="">
                     </div>
                 </div>
-                <div class="col-lg-7 col-md-12 flex-col">
+                <div class="col-lg-6 col-md-12 flex-col">
                     <div class="about-us">
                         <div class="description">
-                            <h1 class="header mb-5">Лабораторија БДА</h1>
-                            <p class="mb-4">Лабораторија БДА започнува со работење во 2016 година со отварање на акредитирана лабораторија за присуство на Трихинела во свинско месо. Во 2018 година компанијата се проширува со отварање на акредитирана лабораторија за микробиологија
-                                и паразитологија по најнови и највисоки светски стандарди. </p>
+                            <h1 class="header mb-5">Политика за квалитет</h1>
+                            <p class="mb-4">Лабораторија БДА се посветува на примена, развој, одржување и континуирано подобрување на системот за управување со квалитет, во согласност со стандардот MKC EN ISO 17025:2018 и постојано подобрување на неговата ефективност.
+                            </p>
 
-                            <p class="mb-4">Во истата се испитуваат сите видови на млеко и млечни производи, вода, воздух, месо и месни производи, овошје и зеленчук, жито и житни производи, јајца, сите видови на безалкохолни пијалоци, сокови, зачини и уште голем број
-                                други производи.</p>
-                            <p class="mb-4">Постојано се трудиме да го подобриме квалитетот на нашите услуги. Тежнееме кон тоа да го зголемиме бројот на акредитираните методи, а со тоа да го зголемиме задоволството на нашите клиенти.</p>
-                            <div class="main-purple-button mt-5">
-                                <a>Дознај повеќе за нас</a>
-                            </div>
+                            <p class="mb-4">Раководството на лаборатотијата обезбедува лабораторијата во своето работење и давање на услуги на тестирање да се придржува на принципите на добра лабораториска пракса.</p>
+                            <p class="mb-4">Основно определување на лабораторијата е непристрасна, точна и објективна услуга.</p>
                         </div>
                     </div>
                 </div>
@@ -120,93 +96,70 @@
         </div>
         </div>
     </section>
-    <!-- End about us -->
 
-    <!-- Services -->
     <section class="service">
-        <div class="custom-container">
+        <div class="container">
             <div class="row">
-                <div class="col-md-12 text-center">
-                    <h2 class="section-header">Кои услуги ги нуди нашата лабораторија</h2>
-                    <span class="horizontal-line"></span>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="col-lg-3">
                     <div class="feature-item">
                         <div class="icon">
-                            <img src="https://i.ibb.co/DRHPz31/laboratory-2.png" alt="">
+                            <img src="https://i.ibb.co/7KVSnWc/scientist-1.png" alt="">
                         </div>
-                        <h5>Микробиологија</h5>
-                        <p>Целокупна микробиолошка анализа со цел да се задоволи правилникот за безбедност на храна.</p>
-                    </div>
-                    <div class="main-purple-button">
-                        <a>Дознај повеќе</a>
+                        <h5>Искусни професионалци</h5>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="col-lg-3">
                     <div class="feature-item">
                         <div class="icon">
-                            <img src="https://i.ibb.co/bsnHHH6/compound-1.png" alt="">
+                            <img src="https://i.ibb.co/3FDfYRr/microscope-1.png" alt="">
                         </div>
-                        <h5>Хемиска Лабораторија</h5>
-                        <p>Анализа и испитување на храна и сточна храна како и параметри од животна средина. </p>
-                    </div>
-                    <div class="main-purple-button disabled">
-                        <a>Наскоро...</a>
+                        <h5>Најсовремена опрема</h5>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="col-lg-3">
                     <div class="feature-item">
                         <div class="icon">
-                            <img src="https://i.ibb.co/3ScZVs5/laboratory-3-1.png" alt="">
+                            <img src="https://i.ibb.co/NjMbnYj/medal-1.png" alt="">
                         </div>
-                        <h5>Паразитологија</h5>
-                        <p>Детекција на ларви Трихинела во месо со метода на вештачка дигестија на збирни примероци со магнетна мешалка.</p>
-                    </div>
-                    <div class="main-purple-button">
-                        <a>Дознај повеќе</a>
+                        <h5>Квалитет и ефикасност</h5>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="col-lg-3">
                     <div class="feature-item">
                         <div class="icon">
                             <img src="https://i.ibb.co/3N8RBg8/training-2.png" alt="">
                         </div>
-                        <h5>Обуки</h5>
-                        <p>Стекнување основни знаења за безбедност на храна - курс по хигиена.</p>
-                    </div>
-                    <div class="main-purple-button" data-toggle="modal" data-target="#myModal">
-                        <a>Дознај повеќе</a>
+                        <h5>Професионални обуки</h5>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- End services -->
 
+    <section class="about-us custom-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 flex-col">
+                    <div class="about-us">
+                        <div class="description">
+                            <h1 class="header mb-5">Професионален однос</h1>
+                            <p class="mb-4">Исполнувањето на барањата на клиентите и почитувањето на регулативата и стандардите се приоритет и цел на лабораторијата.
+                            </p>
 
-    <!-- Acreditaion -->
-    <section class="privacy-policy">
-        <div class="rgba">
-            <div class="container-fluid">
-                <div class="row flex-row align-items-center">
-                    <div class="col-md-4 offset-md-1 description">
-                        <h2 class="header mb-4">Современа Акредитирана Лабораторија</h2>
-                        <p class="mb-4">Акредитацијата е добиена по темелни контроли и проверки на сите нивоа, од стручна комисија составена од домашни и странски експерти. За одредени бактерии ПТ шемите се извршени во референтни лаборатории во Рим, Лондон каде што прецизноста
-                            на резултати е 100 процетна. </p>
-                    </div>
-                    <div class="col-md-5 offset-md-1">
-                        <div class="box">
-                            <img class="privacy-img" src="https://nikolovskipetar.github.io/bda/assets/img/slider9.jpg" alt="">
+                            <p class="mb-4">Професионалниот однос во деловното комуницирање во текот на подготовката и давањето на услугата е мото на однесувањето на персоналот во лабораторијата.</p>
+                            <p class="mb-4">Грижата за корисникот е главна цел на однесувањето на персоналот во лабораторијата.</p>
                         </div>
                     </div>
-                    <div class="col-md-1"></div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="thumbnail">
+                        <img class="front-img about-img" src="https://nikolovskipetar.github.io/bda/assets/img/gallery9.jpg" alt="">
+                    </div>
                 </div>
             </div>
         </div>
+        </div>
     </section>
-    <!-- End acreditaion -->
 
 
     <!--Map section-->
@@ -284,24 +237,6 @@
     <!--To top button-->
     <a id="button"><i class="fas fa-arrow-up"></i></a>
     <!--Edn to top button-->
-
-    <!-- Modal -->
-    <div id="myModal" class="modal fade" role="dialog">
-        <div class="modal-dialog modal-lg">
-            <!-- Modal content-->
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h4>Решение за обуки</h4>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
-                <div class="modal-body">
-                    <embed src="assets/images/resenie za obuki.pdf" frameborder="0" width="100%" height="800px">
-                </div>
-
-            </div>
-        </div>
-    </div>
-    <!-- End modal -->
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
