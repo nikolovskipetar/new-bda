@@ -980,8 +980,7 @@ section.all-services .item-text.active {
 
 /* RESPONSIVE */
 
-
-/* @media(max-width:1582px) {
+@media(max-width:1582px) {
     section.service .feature-item p {
         height: 100px;
     }
@@ -1023,4 +1022,4 @@ section.all-services .item-text.active {
         margin-left: unset;
         margin-top: 50px;
     }
-} */
+}
