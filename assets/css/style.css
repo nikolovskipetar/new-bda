@@ -1040,3 +1040,14 @@ section.all-services .item-text.active {
         font-size: 2.5rem !important;
     }
 }
+
+@media(max-width:500px) {
+    .copyright {
+        font-size: 12px;
+    }
+    #button {
+        width: 40px;
+        height: 40px;
+        font-size: 15px;
+    }
+}
