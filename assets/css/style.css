@@ -1041,6 +1041,15 @@ section.all-services .item-text.active {
     }
 }
 
+@media(max-width:600px) {
+    #about-us-btn a {
+        width: 100%;
+    }
+    section.about-us {
+        margin-bottom: 70px;
+    }
+}
+
 @media(max-width:500px) {
     .copyright {
         font-size: 12px;
