@@ -992,6 +992,16 @@ section.all-services .item-text.active {
     }
 }
 
+@media(max-width:1199px) {
+    section.about-us .description .header {
+        font-size: 33px;
+        margin-bottom: 2rem !important;
+    }
+    section.about-us .about-us .mb-4 {
+        margin-bottom: 1rem !important;
+    }
+}
+
 @media(max-width:1000px) {
     .privacy-policy .desktop {
         display: none;
@@ -1008,6 +1018,7 @@ section.all-services .item-text.active {
     }
     section.privacy-policy .description .header {
         margin-top: 50px;
+        text-align: center;
     }
     section.privacy-policy .privacy-img {
         height: unset !important;
@@ -1021,5 +1032,11 @@ section.all-services .item-text.active {
     section.about-us .about-us {
         margin-left: unset;
         margin-top: 50px;
+    }
+}
+
+@media(max-width:767px) {
+    .banner-header {
+        font-size: 2.5rem !important;
     }
 }

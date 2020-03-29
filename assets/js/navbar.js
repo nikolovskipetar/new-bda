@@ -11,6 +11,14 @@ $(window).scroll(function() {
     }
 });
 
+$('document').ready(function() {
+    if ($(window).scrollTop() > 300) {
+        scrollBtn.addClass('show');
+    } else {
+        scrollBtn.removeClass('show');
+    }
+})
+
 let btn = $('#mobile-menu')
 let bars = $('#mob-menu')
 
@@ -28,7 +36,6 @@ btn.click(function() {
 })
 
 $(window).on('load', function() {
-    // executes when HTML-Document is loaded and DOM is ready
     $('.preloader').fadeOut()
 });
 
