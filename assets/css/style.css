@@ -980,7 +980,8 @@ section.all-services .item-text.active {
 
 /* RESPONSIVE */
 
-@media(max-width:1582px) {
+
+/* @media(max-width:1582px) {
     section.service .feature-item p {
         height: 100px;
     }
@@ -1007,7 +1008,10 @@ section.all-services .item-text.active {
         top: 40px;
     }
     section.privacy-policy .description .header {
-        margin-top: 40px;
+        margin-top: 50px;
+    }
+    section.privacy-policy .privacy-img {
+        height: unset !important;
     }
 }
 
@@ -1019,4 +1023,4 @@ section.all-services .item-text.active {
         margin-left: unset;
         margin-top: 50px;
     }
-}
+} */
