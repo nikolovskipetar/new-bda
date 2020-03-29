@@ -95,9 +95,6 @@ a:not([href]):not([tabindex]) {
     cursor: pointer;
 }
 
-
-/* Preloader */
-
 .preloader {
     position: fixed;
     display: flex;
@@ -112,12 +109,6 @@ a:not([href]):not([tabindex]) {
 .preloader img {
     width: 320px;
 }
-
-
-/* End preloader */
-
-
-/* Navigation */
 
 .logo-white {
     width: 220px;
@@ -181,12 +172,6 @@ a:not([href]):not([tabindex]) {
     border-color: rgb(255, 102, 203);
 }
 
-
-/* End Navigation */
-
-
-/* Main banner */
-
 #main-banner {
     background-image: url('https://nikolovskipetar.github.io/bda/assets/img/slider6.jpg');
     background-size: cover;
@@ -241,9 +226,6 @@ a:not([href]):not([tabindex]) {
 .main-purple-button.disabled {
     cursor: not-allowed;
 }
-
-
-/* Animation */
 
 .parallax>use {
     -webkit-animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
@@ -330,15 +312,6 @@ a:not([href]):not([tabindex]) {
     }
 }
 
-
-/* End Animation */
-
-
-/* End Main Banner */
-
-
-/* About us */
-
 section.about-us {
     margin-top: 100px;
     margin-bottom: 100px;
@@ -368,12 +341,6 @@ section.about-us .flex-col {
 section.about-us .description {
     margin-bottom: 60px;
 }
-
-
-/* End about us */
-
-
-/* Service */
 
 section.service {
     background: #F0F6FE;
@@ -468,12 +435,6 @@ section.about-us .about-us {
     border-bottom: unset;
 }
 
-
-/* End Service */
-
-
-/* Privacy Policy */
-
 section.privacy-policy {
     height: 50vh;
     background-image: url('https://w6.themedemo.co/ninedok/wp-content/uploads/2019/09/Untitled-4.jpg');
@@ -507,12 +468,6 @@ section.privacy-policy .privacy-img {
     border-radius: 12px;
 }
 
-
-/* End Privacy Policy */
-
-
-/* Map */
-
 .mapouter {
     position: relative;
     text-align: right;
@@ -531,12 +486,6 @@ iframe {
     background: var(--first-purple);
     height: 450px;
 }
-
-
-/* End Map */
-
-
-/* Footer */
 
 .main-footer {
     position: relative;
@@ -709,12 +658,6 @@ li svg {
     color: var(--second-purple) !important;
 }
 
-
-/* End Footer */
-
-
-/* To top button */
-
 #button {
     display: inline-block;
     background-color: var(--second-purple);
@@ -765,12 +708,6 @@ li svg {
     opacity: 1;
     visibility: visible;
 }
-
-
-/* End To top button */
-
-
-/* 2. CONTACT PAGE */
 
 #main-banner.banner {
     height: 45vh;
@@ -940,9 +877,6 @@ section.contact-us .inner-content button:hover::after {
     transition: transform 300ms ease-out, -webkit-transform 300ms ease-out;
 }
 
-
-/* 3. GALLERY PAGE */
-
 #aniimated-thumbnials a {
     height: 350px;
 }
@@ -1035,13 +969,54 @@ section.all-services .item-text.active {
     display: flex;
 }
 
-
-/* 4. ABOUT US */
-
 .about-img {
     box-shadow: unset !important
 }
 
 .custom-section {
     margin-bottom: 50px !important;
+}
+
+
+/* RESPONSIVE */
+
+@media(max-width:1582px) {
+    section.service .feature-item p {
+        height: 100px;
+    }
+}
+
+@media(max-width:1450px) {
+    section.service .feature-item p {
+        height: 150px;
+    }
+}
+
+@media(max-width:1000px) {
+    .privacy-policy .desktop {
+        display: none;
+    }
+    .privacy-policy .mobile {
+        display: flex !important;
+    }
+    section.privacy-policy {
+        height: unset;
+    }
+    section.privacy-policy .privacy-img {
+        position: relative;
+        top: 40px;
+    }
+    section.privacy-policy .description .header {
+        margin-top: 40px;
+    }
+}
+
+@media(max-width:991px) {
+    section.service .feature-item p {
+        height: 80px;
+    }
+    section.about-us .about-us {
+        margin-left: unset;
+        margin-top: 50px;
+    }
 }
