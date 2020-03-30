@@ -1010,6 +1010,7 @@ section.all-services .item-text.active {
     }
     footer .responsive-column {
         padding: 0;
+        padding-left: 15px !important;
     }
 }
 
@@ -1089,6 +1090,12 @@ section.all-services .item-text.active {
     }
     section.about-us {
         margin-bottom: 70px;
+    }
+    .main-footer ul {
+        margin-left: 0 !important;
+    }
+    .main-footer .link-widget .link-list li a {
+        padding: 0!important;
     }
 }
 
