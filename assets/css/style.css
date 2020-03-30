@@ -711,6 +711,14 @@ li svg {
 
 #main-banner.banner {
     height: 45vh;
+    background-image: url(https://nikolovskipetar.github.io/bda/assets/img/gallery2.jpg);
+    background-size: cover;
+    background-position: 51% 57%;
+}
+
+#main-banner.banner #background-rgba {
+    background-color: rgba(129, 103, 169, .6);
+    height: 100%;
 }
 
 #main-banner.banner .custom-column-margin {
@@ -1000,6 +1008,9 @@ section.all-services .item-text.active {
     section.about-us .about-us .mb-4 {
         margin-bottom: 1rem !important;
     }
+    footer .responsive-column {
+        padding: 0;
+    }
 }
 
 @media(max-width:1000px) {
@@ -1033,11 +1044,54 @@ section.all-services .item-text.active {
         margin-left: unset;
         margin-top: 50px;
     }
+    .widgets-section .row .col-md-6:nth-child(4) .footer-widget {
+        float: left !important;
+    }
+    .widgets-section .row .col-md-6:nth-child(-n+2) {
+        margin-bottom: 30px;
+    }
+    footer .responsive-column {
+        padding: unset;
+    }
+}
+
+@media(max-width:840px) {
+    section.all-services .nav {
+        display: block;
+    }
+    section.all-services .nav span {
+        width: 100% !important;
+        text-align: center;
+        margin-bottom: 35px;
+        display: block;
+    }
+    section.all-services .nav span:last-child {
+        margin-bottom: unset;
+    }
 }
 
 @media(max-width:767px) {
     .banner-header {
         font-size: 2.5rem !important;
+    }
+    .widgets-section .row .col-md-6:nth-child(-n+2) {
+        margin-bottom: unset;
+    }
+    .widgets-section .row .col-md-6 {
+        margin-bottom: 40px !important;
+    }
+    footer .responsive-column {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}
+
+@media(max-width:700px) {
+    #main-banner.banner .banner-paragraph {
+        font-size: 2.6rem !important;
+    }
+    #main-banner.banner .custom-column-margin {
+        margin-top: 60px;
     }
 }
 
@@ -1058,5 +1112,28 @@ section.all-services .item-text.active {
         width: 40px;
         height: 40px;
         font-size: 15px;
+    }
+    #main-banner.banner .banner-paragraph {
+        font-size: 2.4rem !important;
+    }
+}
+
+@media(max-width:400px) {
+    #main-banner .main-purple-button.btn {
+        display: block;
+    }
+    #main-banner .main-purple-button.btn a {
+        padding: 15px;
+        width: 100%;
+    }
+}
+
+@media(max-width:350px) {
+    .logo-white {
+        width: 180px;
+        height: 150px;
+    }
+    #main-banner.banner .banner-paragraph {
+        font-size: 2rem !important;
     }
 }
