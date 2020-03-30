@@ -11,7 +11,8 @@ $(window).scroll(function() {
     }
 });
 
-$('document').ready(function() {
+$(document).ready(function() {
+    console.log($(window).scrollTop())
     if ($(window).scrollTop() > 300) {
         scrollBtn.addClass('show');
     } else {

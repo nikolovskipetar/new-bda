@@ -448,7 +448,7 @@ section.privacy-policy {
 section.privacy-policy .rgba {
     height: 100%;
     width: 100%;
-    background-color: rgba(129, 103, 169, 0.19);
+    background-color: rgba(129, 103, 169, 0.59);
     display: flex;
     align-items: center;
 }
