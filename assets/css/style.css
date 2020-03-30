@@ -1034,6 +1034,9 @@ section.all-services .item-text.active {
     section.privacy-policy .privacy-img {
         height: unset !important;
     }
+    section.service {
+        padding: 60px 0px 80px 0px;
+    }
 }
 
 @media(max-width:991px) {
@@ -1084,6 +1087,9 @@ section.all-services .item-text.active {
         padding-left: 15px !important;
         padding-right: 15px !important;
     }
+    section.about-us {
+        margin-bottom: 70px;
+    }
 }
 
 @media(max-width:700px) {
@@ -1102,6 +1108,12 @@ section.all-services .item-text.active {
     section.about-us {
         margin-bottom: 70px;
     }
+    section.service {
+        padding: 0px 0px 80px 0px;
+    }
+    .about-us-service-section {
+        padding: 50px 0px 80px 0px !important;
+    }
 }
 
 @media(max-width:500px) {
@@ -1115,6 +1127,9 @@ section.all-services .item-text.active {
     }
     #main-banner.banner .banner-paragraph {
         font-size: 2.4rem !important;
+    }
+    .about-us-service-section {
+        padding: 50px 15px 80px 15px !important;
     }
 }
 
