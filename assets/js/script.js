@@ -12,7 +12,14 @@ $(window).scroll(function () {
 });
 
 $(document).ready(function () {
-  $('.place-card-large').css('display', 'none');
+  if (window.location.href.indexOf("parasitology") > -1) {
+    $('.nav span').removeClass('active')
+    $('.nav span.parasitology').addClass('active')
+  }
+  if (window.location.href.indexOf("microbiology") > -1) {
+    $('.nav span').removeClass('active')
+    $('.nav span.microbiology').addClass('active')
+  }
   if ($(window).scrollTop() > 300) {
     scrollBtn.addClass('show');
   } else {
