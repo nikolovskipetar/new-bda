@@ -111,6 +111,12 @@ a:not([href]):not([tabindex]) {
     width: 320px;
 }
 
+.contact-mini {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: var(--first-purple);
+}
+
 .logo-white {
     width: 220px;
     height: 125px;
@@ -443,7 +449,6 @@ section.privacy-policy {
     background-position: center;
     width: 100%;
     background-attachment: fixed;
-    margin-bottom: 100px;
 }
 
 section.privacy-policy .rgba {
@@ -467,6 +472,8 @@ section.privacy-policy .privacy-img {
     width: 100%;
     height: 550px;
     border-radius: 12px;
+    position: relative;
+    z-index: 999;
 }
 
 .mapouter {
@@ -493,6 +500,10 @@ iframe {
     background: #252634;
     color: #d4dae3;
     padding: 83px 0px 71px 0px;
+}
+
+.main-footer .custom-span {
+    margin-left: 2.3rem !important;
 }
 
 .main-footer li {
@@ -1110,6 +1121,10 @@ section.certificates .owl-next {
 @media (max-width: 991px) {
     section.service .feature-item p {
         height: 80px;
+    }
+
+    .main-footer .custom-span {
+        margin-left: unset !important;
     }
 
     section.about-us .about-us {

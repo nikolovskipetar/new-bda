@@ -12,7 +12,7 @@ $(window).scroll(function () {
 });
 
 $(document).ready(function () {
-  console.log($(window).scrollTop());
+  $('.place-card-large').css('display', 'none');
   if ($(window).scrollTop() > 300) {
     scrollBtn.addClass('show');
   } else {
@@ -73,24 +73,4 @@ $('.nav span').click(function () {
     $('.item-text').hide();
     $('.' + id).fadeIn()
   }
-});
-
-
-$(document).ready(function () {
-  (function ($) {
-    $('#news-slider').owlCarousel({
-      items : 3,
-      itemsDesktop:[1199,3],
-      itemsDesktopSmall:[980,2],
-      itemsMobile : [600,1],
-      navigation:true,
-      navigationText: [
-        "<i class='fa fa-chevron-left'></i>",
-        "<i class='fa fa-chevron-right'></i>"
-      ],
-      pagination:true,
-      autoPlay:true,
-      dots: true
-    });
-  })(jQuery);
 });
