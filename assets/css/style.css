@@ -1220,8 +1220,9 @@ section.certificates .owl-next {
     }
 
     #main-banner.banner .custom-column-margin {
-        margin-top: 60px;
+        margin-top: 90px;
     }
+
 }
 
 @media (max-width: 600px) {
