@@ -76,12 +76,6 @@ $('.nav span').click(function () {
 });
 
 
-// $(document).ready(function() {
-//   $("#news-slider").owlCarousel({
-//
-//   });
-// });
-
 $(document).ready(function () {
   (function ($) {
     $('#news-slider').owlCarousel({
@@ -90,9 +84,13 @@ $(document).ready(function () {
       itemsDesktopSmall:[980,2],
       itemsMobile : [600,1],
       navigation:true,
-      navigationText:["",""],
+      navigationText: [
+        "<i class='fa fa-chevron-left'></i>",
+        "<i class='fa fa-chevron-right'></i>"
+      ],
       pagination:true,
-      autoPlay:true
+      autoPlay:true,
+      dots: true
     });
   })(jQuery);
 });
