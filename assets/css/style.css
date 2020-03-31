@@ -1130,7 +1130,7 @@ section.certificates .section-header {
 
 @media(max-width:700px) {
     #main-banner.banner .banner-paragraph {
-        font-size: 2.6rem !important;
+        font-size: 2.4rem !important;
     }
     #main-banner.banner .custom-column-margin {
         margin-top: 60px;
