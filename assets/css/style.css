@@ -1150,6 +1150,9 @@ section.certificates .section-header {
     .about-us-service-section {
         padding: 50px 0px 80px 0px !important;
     }
+    section.certificates .section-header {
+        margin-top: 50px;
+    }
 }
 
 @media(max-width:500px) {
