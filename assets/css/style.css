@@ -1251,6 +1251,9 @@ section.certificates .owl-next {
         top: 30px;
         right: 11px;
     }
+    #main-banner.banner .banner-links {
+        font-size: 1.2rem !important;
+    }
 }
 
 @media (max-width: 500px) {
@@ -1265,7 +1268,7 @@ section.certificates .owl-next {
     }
 
     #main-banner.banner .banner-paragraph {
-        font-size: 2.4rem !important;
+        font-size: 2rem !important;
     }
 
     .about-us-service-section {
