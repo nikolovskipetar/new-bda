@@ -476,6 +476,22 @@ section.privacy-policy .privacy-img {
     z-index: 999;
 }
 
+section.contact-us-banner {
+    background-image: url(https://nikolovskipetar.github.io/bda/assets/img/services.png);
+    background-size: cover;
+    background-position: center;
+}
+
+section.contact-us-banner .rgba {
+    padding-top: 75px;
+    background-color:rgba(240, 246, 254, 0.92);
+    padding-bottom: 75px;
+}
+
+section.contact-us-banner .main-purple-button a {
+    padding: 13px 90px;
+}
+
 .mapouter {
     position: relative;
     text-align: right;
@@ -1048,14 +1064,6 @@ section.certificates .owl-next {
     border-radius: 50%;
 }
 
-
-@media only screen and (max-width: 1280px) {
-    .post-slide .post-content {
-        padding: 0px 15px 25px 15px;
-    }
-}
-
-
 /* RESPONSIVE */
 
 @media (max-width: 1582px) {
@@ -1074,6 +1082,11 @@ section.certificates .owl-next {
     section.about-us .description .header {
         font-size: 33px;
         margin-bottom: 2rem !important;
+    }
+
+    section.contact-us-banner .main-purple-button a {
+        display: block;
+        padding: 11px 73px;
     }
 
     section.about-us .about-us .mb-4 {
@@ -1142,6 +1155,14 @@ section.certificates .owl-next {
 
     footer .responsive-column {
         padding: unset;
+    }
+
+    section.contact-us-banner {
+        text-align: center;
+    }
+
+    section.contact-us-banner .main-purple-button {
+        margin-top: 30px;
     }
 }
 
