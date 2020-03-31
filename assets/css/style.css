@@ -1256,6 +1256,12 @@ section.certificates .owl-next {
     }
 }
 
+@media(max-width:575px) {
+    .modal.show .modal-dialog {
+        padding: 12px !important;
+    }
+}
+
 @media (max-width: 500px) {
     .copyright {
         font-size: 12px;
