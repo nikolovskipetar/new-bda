@@ -320,11 +320,6 @@ a:not([href]):not([tabindex]) {
 }
 
 section.about-us {
-    position: relative;
-    overflow: hidden;
-}
-
-section.about-us .container {
     margin-top: 100px;
     margin-bottom: 100px;
 }
@@ -366,27 +361,6 @@ section.service .feature-item {
     border-radius: 15px;
     padding: 30px 25px 43px 25px;
     margin-top: 30px;
-}
-
-.shape-1 {
-    position: absolute;
-    left: 0px;
-    bottom: -200px;
-    background-image: url('https://nikolovskipetar.github.io/bda/assets/img/shape-1.png');
-    width: 535px;
-    height: 668px;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.shape-2 {
-    position: absolute;
-    right: 0px;
-    bottom: -200px;
-    background-image: url('https://nikolovskipetar.github.io/bda/assets/img/shape-1.png');
-    width: 535px;
-    height: 668px;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 section.service .feature-item .icon {
