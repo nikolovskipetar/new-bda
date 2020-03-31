@@ -1011,12 +1011,30 @@ section.certificates .owl-buttons {
     display: flex;
     justify-content: space-between;
     position: relative;
-    top: -190px;
+    top: -200px;
+    color: white;
 }
 
-section.certificates .owl-left {
-    left: -17px;
+section.certificates .owl-prev {
+    left: -30px;
     position: relative;
+}
+
+section.certificates .owl-next {
+    left: 20px;
+    position: relative;
+}
+
+section.certificates .owl-prev,
+section.certificates .owl-next {
+    background: var(--first-purple);
+    width: 30px !important;
+    height: 30px !important;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
 }
 
 
@@ -1189,6 +1207,12 @@ section.certificates .owl-left {
 
     section.certificates .section-header {
         margin-top: 50px;
+    }
+
+    section.certificates .owl-buttons {
+        justify-content: center;
+        top: 30px;
+        right: 11px;
     }
 }
 
