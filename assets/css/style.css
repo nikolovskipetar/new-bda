@@ -672,6 +672,18 @@ iframe {
     font-weight: 500;
 }
 
+.email-invalid {
+    color: red;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.thankyou_message {
+    display: none;
+}
+#hidden-spinner {
+    display: none;
+}
+
 .footer-bottom .copyright a {
     color: var(--second-purple) !important;
     font-weight: 500;
