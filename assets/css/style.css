@@ -20,6 +20,10 @@
     color: var(--second-purple);
 }
 
+button:disabled {
+    cursor: not-allowed !important;
+}
+
 ::selection {
     color: #fff;
     background-color: #8167a9;
