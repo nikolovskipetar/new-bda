@@ -88,7 +88,7 @@
         var thankYouMessage = form.querySelector(".thankyou_message");
         if (thankYouMessage) {
           $(thankYouMessage).fadeIn();
-          $(thankYouMessage).css({"background-color": "#8167a9", "color": "white", "margin-bottom": "100px", "padding": "15px", "border-radius" : "12px"})
+          $(thankYouMessage).css({"background-color": "#8167a9", "color": "white", "padding": "15px", "border-radius" : "12px"})
         }
         return;
       };
