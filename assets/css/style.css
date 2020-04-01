@@ -676,6 +676,8 @@ iframe {
     color: red;
     font-size: 15px;
     margin-bottom: 15px;
+    margin-top: -15px;
+    margin-left: 15px;
 }
 .thankyou_message {
     display: none;
