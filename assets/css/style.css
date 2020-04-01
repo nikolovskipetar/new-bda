@@ -141,6 +141,7 @@ a:not([href]):not([tabindex]) {
     background: transparent !important;
     font-size: 22px;
     transition: 500ms ease;
+    z-index: 999;
 }
 
 .navbar.scrolled {
@@ -1342,14 +1343,14 @@ section.certificates .owl-next {
     }
 }
 
-@media(max-height: 800px) {
-    #main-banner {
-        height: 120vh;
-    }
-    #main-banner.banner {
-        height: 60vh;
-    }
-}
+/*@media(max-height: 800px) {*/
+/*    #main-banner {*/
+/*        height: 120vh;*/
+/*    }*/
+/*    #main-banner.banner {*/
+/*        height: 60vh;*/
+/*    }*/
+/*}*/
 
 @media(max-height: 780px) {
     section.privacy-policy .privacy-img {
