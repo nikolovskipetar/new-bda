@@ -14,7 +14,9 @@ $(window).scroll(function () {
 $(document).ready(function () {
   if (window.location.href.indexOf("parasitology") > -1) {
     $('.nav span').removeClass('active')
+    $('.item-text').removeClass('active')
     $('.nav span.parasitology').addClass('active')
+    $('.item-text.parasitology').addClass('active')
   }
   if (window.location.href.indexOf("microbiology") > -1) {
     $('.nav span').removeClass('active')
