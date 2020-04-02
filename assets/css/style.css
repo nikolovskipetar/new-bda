@@ -191,7 +191,7 @@ a:not([href]):not([tabindex]) {
 }
 
 #main-banner {
-    background-image: url('https://nikolovskipetar.github.io/bda/assets/img/slider6.jpg');
+    background-image: url('../img/slider.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 90vh;
@@ -765,7 +765,7 @@ li svg {
     height: 45vh;
     background-image: url(https://nikolovskipetar.github.io/bda/assets/img/gallery2.jpg);
     background-size: cover;
-    background-position: 51% 57%;
+    background-position: 51% 80%;
 }
 
 #main-banner.banner #background-rgba {
