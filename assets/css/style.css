@@ -763,7 +763,7 @@ li svg {
 
 #main-banner.banner {
     height: 45vh;
-    background-image: url(https://nikolovskipetar.github.io/bda/assets/img/gallery2.jpg);
+    background-image: url('../img/banner.jpg');
     background-size: cover;
     background-position: 51% 80%;
 }
@@ -1238,6 +1238,9 @@ section.certificates .owl-next {
 
     .main-footer .link-widget .link-list li a {
         padding: 0 !important;
+    }
+    #main-banner {
+        background-position: 70% 50%;
     }
 }
 
