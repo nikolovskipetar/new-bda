@@ -1088,6 +1088,10 @@ section.certificates .owl-next {
     border-radius: 50%;
 }
 
+#myModal {
+    z-index: 999999;
+}
+
 /* RESPONSIVE */
 
 @media (max-width: 1582px) {
@@ -1283,6 +1287,10 @@ section.certificates .owl-next {
     }
     #main-banner.banner .banner-links {
         font-size: 1.2rem !important;
+    }
+
+    #main-banner {
+        background-position: 45% 50%;;
     }
 }
 
