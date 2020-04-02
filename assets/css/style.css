@@ -1092,6 +1092,10 @@ section.certificates .owl-next {
     z-index: 999999;
 }
 
+#gallery-nav {
+    z-index: 1 !important;
+}
+
 /* RESPONSIVE */
 
 @media (max-width: 1582px) {
@@ -1255,6 +1259,11 @@ section.certificates .owl-next {
 
     #main-banner.banner .custom-column-margin {
         margin-top: 90px;
+    }
+
+    form #submit-button {
+        display: block;
+        width: 100%;
     }
 
 }
