@@ -765,7 +765,7 @@ li svg {
     height: 45vh;
     background-image: url('../img/banner.jpg');
     background-size: cover;
-    background-position: 51% 80%;
+    background-position: center;
 }
 
 #main-banner.banner #background-rgba {
@@ -1258,7 +1258,7 @@ section.certificates .owl-next {
     }
 
     #main-banner.banner .custom-column-margin {
-        margin-top: 90px;
+        margin-top: 0px !important;
     }
 
     form #submit-button {
