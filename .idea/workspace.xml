@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="8140aa77-e1d0-42ab-b3c9-b802d25c32f6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/services.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +27,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -51,6 +54,7 @@
       <workItem from="1585828476465" duration="4336000" />
       <workItem from="1585853101504" duration="599000" />
       <workItem from="1585854227321" duration="3946000" />
+      <workItem from="1585912788417" duration="277000" />
     </task>
     <servers />
   </component>
@@ -70,9 +74,14 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1585771339077" />
-    <state x="641" y="291" width="863" height="590" key="find.popup" timestamp="1585858864839">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state x="463" y="165" key="SettingsEditor" timestamp="1585912891752">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585912891752" />
+    <state x="595" y="261" width="895" height="583" key="find.popup" timestamp="1585912841975">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="595" y="261" width="895" height="583" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585912841975" />
     <state x="641" y="291" width="863" height="590" key="find.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1585858864839" />
     <state x="657" y="253" key="run.anything.popup" timestamp="1585623874960">
       <screen x="67" y="27" width="1853" height="1053" />
