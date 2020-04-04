@@ -454,7 +454,7 @@ section.about-us .about-us {
 
 section.privacy-policy {
     height: 50vh;
-    background-image: url('https://w6.themedemo.co/ninedok/wp-content/uploads/2019/09/Untitled-4.jpg');
+    background-image: url('../img/blured-bg.jpg');
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -487,7 +487,7 @@ section.privacy-policy .privacy-img {
 }
 
 section.contact-us-banner {
-    background-image: url(https://nikolovskipetar.github.io/bda/assets/img/services.png);
+    background-image: url('../img/services.png');
     background-size: cover;
     background-position: center;
 }
@@ -769,7 +769,6 @@ li svg {
 }
 
 #main-banner.banner #background-rgba {
-    /* background-color: rgba(129, 103, 169, .6); */
     height: 100%;
 }
 
