@@ -253,8 +253,8 @@
 <div class="mapouter index-router">
   <div class="gmap_canvas ">
     <div class="rgba-map ">
-      <iframe id="gmap_canvas "
-              src="https://maps.google.com/maps?q=Laboratorija%20BDA%20Kumanovo&t=&z=13&ie=UTF8&iwloc=&output=embed "></iframe>
+      <iframe id="gmap_canvas"
+              src=""></iframe>
     </div>
   </div>
 </div>
@@ -346,6 +346,11 @@
   gtag('js', new Date());
 
   gtag('config', 'UA-162795260-1');
+</script>
+<script>
+  if($(window).width() > 601) {
+    $('#gmap_canvas').attr('src', 'https://maps.google.com/maps?q=Laboratorija%20BDA%20Kumanovo&t=&z=13&ie=UTF8&iwloc=&output=embed')
+  }
 </script>
 </body>
 
