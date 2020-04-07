@@ -63,13 +63,13 @@
           <a class="nav-link" href="/about-us">За нас </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="services.html">Услуги </a>
+          <a class="nav-link" href="/services">Услуги </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="gallery.html">Галерија </a>
+          <a class="nav-link" href="/gallery">Галерија </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contact.html">Контакт </a>
+          <a class="nav-link" href="/contact">Контакт </a>
         </li>
       </ul>
     </div>
@@ -122,8 +122,7 @@
               отварање на акредитирана лабораторија за микробиологија
               и паразитологија по најнови и највисоки светски стандарди. </p>
 
-            <p class="mb-4">Во истата се испитуваат сите видови на млеко и млечни производи, вода, воздух, месо и месни
-              производи, овошје и зеленчук, жито и житни производи, јајца, сите видови на безалкохолни пијалоци, сокови,
+            <p class="mb-4">Во истата се испитуваат сите видови на млеко и млечни производи, вода, воздух, месо и производи од месо, овошје и зеленчук, жито и житни производи, јајца, сите видови на безалкохолни пијалоци, сокови,
               зачини и уште голем број
               други производи.</p>
             <p class="mb-4">Постојано се трудиме да го подобриме квалитетот на нашите услуги. Тежнееме кон тоа да го
@@ -153,7 +152,7 @@
             <img src="assets/img/laboratory-2.png" alt="">
           </div>
           <h5>Микробиологија</h5>
-          <p>Целокупна микробиолошка анализа со цел да се задоволи правилникот за безбедност на храна.</p>
+          <p>Целокупна микробиолошка анализа со цел да се задоволи правилникот за микробиолошки критериуми за храна.</p>
         </div>
         <div class="main-purple-button">
           <a href="services.html">Дознај повеќе</a>
@@ -253,7 +252,7 @@
 <div class="mapouter index-router">
   <div class="gmap_canvas ">
     <div class="rgba-map ">
-      <iframe id="gmap_canvas"
+      <iframe class="index-router-class" id="gmap_canvas"
               src=""></iframe>
     </div>
   </div>
@@ -349,7 +348,7 @@
 </script>
 <script>
   if($(window).width() > 601) {
-    $('#gmap_canvas').attr('src', 'https://maps.google.com/maps?q=Laboratorija%20BDA%20Kumanovo&t=&z=13&ie=UTF8&iwloc=&output=embed')
+    $('.index-router-class').attr('src', 'https://maps.google.com/maps?q=Laboratorija%20BDA%20Kumanovo&t=&z=13&ie=UTF8&iwloc=&output=embed')
   }
 </script>
 </body>
